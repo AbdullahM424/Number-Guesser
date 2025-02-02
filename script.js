@@ -19,9 +19,9 @@ function compareGuesses(humanGuess, computerGuess, targetGuess){
         if (Math.abs(targetGuess - humanGuess) < Math.abs(targetGuess - computerGuess)){
             return true;
         }
-        else if (Math.abs(targetGuess - humanGuess)  Math.abs(targetGuess - computerGuess)){
-            return true;
-        }
+        // else if (Math.abs(targetGuess - humanGuess) > Math.abs(targetGuess - computerGuess)){
+        //     return true;
+        // }
         else {
             return false;
         }
